@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navlink {
+    @apply hover:bg-amber-200 hover:text-amber-600  text-center rounded-full p-1 cursor-pointer hover:font-semibold
+    capitalize hover:scale-110 transition-transform duration-200 ease-out;
+  }
+  .headerTitle {
+    @apply text-2xl md:text-4xl font-serif capitalize px-10 pt-5 underline
+    decoration-amber-600 decoration-2 underline-offset-4
+    decoration-double dark:text-amber-600;
+  }
+}
